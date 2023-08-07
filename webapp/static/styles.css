@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Pattaya&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+
+form .form-label {
+    display: block;
+}
+
+body {
+    background-image: url('/static/back.jpg');
+    background-size: 100%;
+    /* Это растянет изображение на всю ширину и высоту */
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+    /* Примерный шрифт; можете выбрать любой другой */
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    /* Убираем подчеркивание у ссылок */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Добавляем подчеркивание при наведении на ссылку */
+}
+
+/* Желтые заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+/* Желтые кнопки */
+.btn-primary {
+    background-color: yellow;
+    color: black;
+    /* Текст на желтой кнопке будет черным */
+    border: none;
+}
+
+/* Цвет текста внутри ячеек таблицы */
+table tbody td {
+    background-color: #FFF9C4;
+    /* Этот код соответствует бледно-желтому цвету */
+    color: rgb(3, 3, 3);
+    /* Уже добавленный вами цвет текста */
+}
+
+
+
+.btn-primary:hover {
+    background-color: gold;
+    /* Немного изменяем цвет кнопки при наведении */
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    /* Белые границы для таблицы и ее ячеек */
+}
+
+th,
+td {
+    padding: 8px 12px;
+    /* Отступы внутри ячеек таблицы */
+}
+
+th {
+    background-color: yellow;
+    color: black;
+    /* Черный текст на желтом фоне для заголовков таблицы */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Небольшое выделение строки при наведении */
+}
+
+/* Изменение фона для поля ввода описания задачи */
+textarea {
+    background-color: #FFF9C4;
+}
+
+/* Изменение фона для выпадающего списка статуса и поля даты выполнения */
+select,
+input[type="date"] {
+    background-color: #FFF9C4;
+}
+
+/* Изменение цвета текста для лейблов */
+.form-label {
+    color: #000;
+}
